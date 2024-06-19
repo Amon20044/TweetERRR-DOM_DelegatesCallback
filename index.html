@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Glassmorphism Twitter</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Event Delegation (Twitter Example usage of DOM)</h1>
+
+        <form action="/dogs" id="tweetForm" class="glass">
+            <input type="text" name="username" placeholder="Username" class="glass-input">
+            <input type="text" name="tweet" placeholder="Tweet" class="glass-input">
+            <button class="glass-button">Post Tweet</button>
+        </form>
+
+        <h2 class="tweets-header">Tweets:</h2>
+        <ul id="tweets" class="tweets glass">
+            <li class="tweet">click here to remove tweet</li>
+            <li class="tweet"><b>Tweet-ERRRRR  example for DOM usage and delegation</b></li>
+        </ul>
+    </div>
+
+    <script src="apps.js"></script>
+</body>
+
+</html>
